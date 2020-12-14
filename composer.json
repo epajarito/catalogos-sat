@@ -1,0 +1,35 @@
+{
+    "name": "epajarito/catalogos-sat",
+    "description": "Catálogos del SAT para CFDI 3.3 para Laravel",
+    "license": "MIT",
+    "type": "project",
+    "keywords": ["laravel", "catálogos SAT", "SAT", "catálogos SAT laravel","CFDI 3.3 laravel"],
+    "homepage": "https://github.com/epajarito/catalogos-sat",
+    "authors": [
+        {
+            "name": "Eduardo Pajarito",
+            "email": "laalocuautle@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "illuminate/support": "^7|^8"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epajarito\\CatalogosSat\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Epajarito\\CatalogosSat\\CatalogosSatServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
